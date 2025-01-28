@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 1</title>
+    <style>
+        table {
+            width: 100%;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .header-table td {
+            background-color: #f4f4f4;
+        }
+        .header-table {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h3>A complex table</h3>
+
+<table class="header-table">
+    <tr>
+        <td>Invoice #123456789</td>
+        <td style="text-align: right;">14 January 2025</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>
+            <strong>Pay to:</strong><br>
+            JK & A Billing Co.<br>
+            302 Main St.<br>
+            Cityville, NA 12345
+        </td>
+        <td>
+            <strong>Customer:</strong><br>
+            siddhu mossevala<br>
+            321 g20 road<br>
+            south sea gallery
+        </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>Name / Description</th>
+        <th>Qty.</th>
+        <th>@</th>
+        <th>Cost</th>
+    </tr>
+    <tr>
+        <td>Paperclips</td>
+        <td>1000</td>
+        <td>0.01</td>
+        <td>10.00</td>
+    </tr>
+    <tr>
+        <td>Staples (box)</td>
+        <td>100</td>
+        <td>1.00</td>
+        <td>100.00</td>
+    </tr>
+    <tr>
+        <td colspan="3"><strong>Subtotal</strong></td>
+        <td>110.00</td>
+    </tr>
+    <tr>
+        <td colspan="3"><strong>Tax</strong></td>
+        <td>20.80</td>
+    </tr>
+    <tr>
+        <td colspan="3"><strong>Grand Total</strong></td>
+        <td><strong>118.80</strong></td>
+    </tr>
+</table>
+
+</body>
+</html>
